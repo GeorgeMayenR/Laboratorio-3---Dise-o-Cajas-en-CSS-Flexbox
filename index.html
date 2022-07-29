@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="icono.png" type="image/x-icon">
+    <link rel="stylesheet" href="estilos.css" />
+    <title>Página web con flexbox</title>
+  </head>
+  <body>
+    <div class="contenedor">
+      <header>
+        <div class="logo">
+          <img src="icono.png" width="150" alt="" />
+          <a href="#">George Mayén</a>
+        </div>
+
+        <nav>
+          <a href="#">Inicio</a>
+          <a href="#">Blog</a>
+          <a href="#">Proyectos</a>
+          <a href="#">Contacto</a>
+        </nav>
+      </header>
+
+      <section class="main">
+        <article>
+          <h2 class="titulo">¿Qué es flexbox?</h2>
+          <p>
+            Flexbox es un módulo de diseño de CSS3 que se creó para mejorar la
+            forma en la que se hace diseño responsive, evitando así el uso de
+            float, escribiendo menos código y facilitando el posicionamiento de
+            elementos, incluso no teniendo noción del tamaño de éstos.
+            Básicamente la idea de Flexbox es poder alterar el ancho, alto y
+            posicionamiento de elementos de la mejor manera con el espacio del
+            que disponemos.
+          </p>
+        </article>
+
+        <article>
+          <h2 class="titulo">¿Para qué sirve CSS flexbox?</h2>
+          <p>
+            El flexbox (más concretamente, CSS Flexible Box Layout o diseño de
+            caja flexible CSS) funciona de manera más inteligente y dinámica: el
+            diseño se adapta de forma flexible a la pantalla donde se muestra,
+            siguiendo el concepto del diseño receptivo. El espacio se llena o
+            los elementos se desplazan de modo que todo permanezca visible. Para
+            lograrlo sin desmantelar el diseño por completo, flexbox funciona
+            con dos ejes: el eje principal, que suele ser el horizontal, y el
+            eje transversal o vertical. Mediante estos ejes, los elementos se
+            organizan dentro de la caja y se distribuyen en relación unos con
+            otros. Una vez hecho esto, CSS Flexbox no tiene más que garantizar
+            que el espacio que hay alrededor de estos elementos se llene
+            correctamente.
+          </p>
+        </article>
+      </section>
+
+      <aside>
+        <div class="widget">
+          <div class="imagen"></div>
+        </div>
+
+        <div class="widget">
+          <div class="imagen"></div>
+        </div>
+      </aside>
+
+      <footer>
+        <section class="links">
+          <a href="#">Inicio</a>
+          <a href="#">Blog</a>
+          <a href="#">Proyectos</a>
+          <a href="#">Contacto</a>
+        </section>
+
+        <div class="social">
+          <a href="#">FB</a>
+          <a href="#">TW</a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
